@@ -7,7 +7,7 @@ const App = () => {
 
   const handleConnect = async () => {
     try {
-      const res = await fetch('https://huge-drinks-yawn.loca.lt/generate')
+      const res = await fetch('https://tiny-trees-fix.loca.lt/generate')
       const { payload, nonce, encryption_public_key } = await res.json()
 
       const redirectLink = `${window.location.origin}/#/connected`
